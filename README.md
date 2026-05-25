@@ -59,10 +59,11 @@ A Barbearia Baruc precisava de uma presença digital para apresentar seus servi�
 
 ---
 
-## Link do sistema WEB online
+## Link do site publicado
 
-![Baruc Barbearia - Site](https://baruc-barbearia.netlify.app/)
+Acesse o projeto online:
 
+https://baruc-barbearia.netlify.app/
 ---
 
 ## Link do vídeo de apresentação
