@@ -153,7 +153,7 @@ formAgendamento.addEventListener("submit", (event) => {
         return;
     }
 
-     if (data < 2026) {
+     if (data < "2026") {
         alert("Por favor, selecione uma data no ano que estámos.");
         return;
     }
