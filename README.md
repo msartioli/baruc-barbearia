@@ -1,5 +1,7 @@
 # Baruc Barbearia
 
+![Banner do projeto](https://i.imgur.com/TlR8oAG.png)
+
 Sistema web institucional desenvolvido para a **Baruc Barbearia**, uma barbearia real, com o objetivo de divulgar seus serviços, apresentar informações de contato e permitir a solicitação de agendamento online.
 
 O projeto foi desenvolvido para a disciplina **Projeto em Desenvolvimento de Sistemas / Projeto Prático em Sistemas**, atendendo a uma demanda real classificada como **Projeto Profissional**.
@@ -20,7 +22,9 @@ A Barbearia Baruc precisava de uma presença digital para apresentar seus servi�
 - Informações de contato
 - Agendamento de horário
 - Tela de confirmação de agendamento
+- Encaminhamento para WhatsApp com mensagem pronta
 - Layout baseado em protótipo criado no Figma
+- Site responsivo para desktop, tablet e celular
 
 ---
 
@@ -56,6 +60,7 @@ A Barbearia Baruc precisava de uma presença digital para apresentar seus servi�
 - Git
 - GitHub
 - Figma
+- Netlify
 
 ---
 
@@ -64,6 +69,7 @@ A Barbearia Baruc precisava de uma presença digital para apresentar seus servi�
 Acesse o projeto online:
 
 https://baruc-barbearia.netlify.app/
+
 ---
 
 ## Link do vídeo de apresentação
@@ -90,4 +96,4 @@ Em breve.
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/baruc-barbearia.git
+git clone https://github.com/msartioli/baruc-barbearia.git
