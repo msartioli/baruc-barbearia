@@ -1,6 +1,6 @@
-/* ============================= */
+
 /* Para Celular */
-/* ============================= */
+
 
 const menuMobile = document.getElementById("menuMobile");
 const menu = document.getElementById("menu");
@@ -19,9 +19,9 @@ linksMenu.forEach((link) => {
 });
 
 
-/* ============================= */
+
 /* Popups */
-/* ============================= */
+
 
 const modalOverlay = document.getElementById("modalOverlay");
 
@@ -38,9 +38,9 @@ const btnConfirmar = document.getElementById("btnConfirmar");
 const btnFecharFinal = document.getElementById("btnFecharFinal");
 
 
-/* ============================= */
+
 /* Formulário de Agendamento */
-/* ============================= */
+
 
 const formAgendamento = document.getElementById("formAgendamento");
 
@@ -56,9 +56,9 @@ const resumoDataHorario = document.getElementById("resumoDataHorario");
 let horarioSelecionado = "";
 
 
-/* ============================= */
+
 /* Abrir Popup de Agendamento */
-/* ============================= */
+
 
 botoesAbrirAgendamento.forEach((botao) => {
     botao.addEventListener("click", () => {
@@ -72,9 +72,9 @@ function abrirPopupAgendamento() {
 }
 
 
-/* ============================= */
+
 /* Fechar Popups */
-/* ============================= */
+
 
 function fecharTodosPopups() {
     modalOverlay.classList.remove("ativo");
@@ -103,9 +103,9 @@ modalOverlay.addEventListener("click", (event) => {
 });
 
 
-/* ============================= */
+
 /* Controlar qual Popup aparece */
-/* ============================= */
+
 
 function mostrarPopup(popupAtual) {
     modalAgendamento.classList.remove("ativo");
@@ -116,9 +116,9 @@ function mostrarPopup(popupAtual) {
 }
 
 
-/* ============================= */
+
 /* Selecionar o Horário */
-/* ============================= */
+
 
 botoesHorario.forEach((botao) => {
     botao.addEventListener("click", () => {
@@ -132,9 +132,9 @@ botoesHorario.forEach((botao) => {
 });
 
 
-/* ============================= */
+
 /* Validar e Agendar */
-/* ============================= */
+
 
 formAgendamento.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -177,18 +177,18 @@ formAgendamento.addEventListener("submit", (event) => {
 });
 
 
-/* ============================= */
+
 /* Botão para Voltar */
-/* ============================= */
+
 
 btnVoltar.addEventListener("click", () => {
     mostrarPopup(modalAgendamento);
 });
 
 
-/* ============================= */
+
 /* Confirmar o Agendamento */
-/* ============================= */
+
 
 btnConfirmar.addEventListener("click", () => {
     const linkWhatsApp = montarMensagemWhatsApp();
@@ -199,9 +199,9 @@ btnConfirmar.addEventListener("click", () => {
 });
 
 
-/* ============================= */
+
 /* Funções Auxiliares */
-/* ============================= */
+
 
 function formatarData(data) {
     const partes = data.split("-");
@@ -226,9 +226,9 @@ function limparFormulario() {
 }
 
 
-/* ============================= */
+
 /* WhatsApp da Loja */
-/* ============================= */
+
 
 function montarMensagemWhatsApp() {
     const nome = inputNome.value.trim();
