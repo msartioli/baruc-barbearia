@@ -74,7 +74,7 @@ https://baru-barberia.netlify.app/
 
 ## Link do vídeo de apresentação
 
-Em breve.
+https://youtu.be/cz4IEUGDLI4
 
 ---
 
