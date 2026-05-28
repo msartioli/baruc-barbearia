@@ -68,7 +68,7 @@ A Barbearia Baruc precisava de uma presenÃ§a digital para apresentar seus serviÃ
 
 Acesse o projeto online:
 
-https://baruc-barbearia.netlify.app/
+https://baru-barberia.netlify.app/
 
 ---
 
